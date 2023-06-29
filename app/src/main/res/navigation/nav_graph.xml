@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.gmail.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_passwordForSignIn"
+            app:destination="@id/passwordForSignIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.gmail.ui.registration.registrationuser.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_birthdayAndGenderFragment"
+            app:destination="@id/birthdayAndGenderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/birthdayAndGenderFragment"
+        android:name="com.example.gmail.ui.registration.birthdayandgender.BirthdayAndGenderFragment"
+        android:label="fragment_birthday_and_gender"
+        tools:layout="@layout/fragment_birthday_and_gender" >
+        <action
+            android:id="@+id/action_birthdayAndGenderFragment_to_chooseGmailFragment"
+            app:destination="@id/chooseGmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseGmailFragment"
+        android:name="com.example.gmail.ui.registration.choosegmail.ChooseGmailFragment"
+        android:label="fragment_choose_gmail"
+        tools:layout="@layout/fragment_choose_gmail" >
+        <action
+            android:id="@+id/action_chooseGmailFragment_to_passwordFragment"
+            app:destination="@id/passwordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.example.gmail.ui.registration.password.PasswordFragment"
+        android:label="fragment_password"
+        tools:layout="@layout/fragment_password" >
+        <action
+            android:id="@+id/action_passwordFragment_to_phoneNumberFragment"
+            app:destination="@id/phoneNumberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneNumberFragment"
+        android:name="com.example.gmail.ui.registration.phonenumber.PhoneNumberFragment"
+        android:label="fragment_phone_number"
+        tools:layout="@layout/fragment_phone_number" >
+        <action
+            android:id="@+id/action_phoneNumberFragment_to_phoneConfermationFragment"
+            app:destination="@id/phoneConfermationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneConfermationFragment"
+        android:name="com.example.gmail.ui.phoneconfermation.PhoneConfirmationFragment"
+        android:label="fragment_phone_confermation"
+        tools:layout="@layout/fragment_phone_confermation" >
+        <action
+            android:id="@+id/action_phoneConfermationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.gmail.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/passwordForSignIn"
+        android:name="com.example.gmail.ui.passwordforsignin.PasswordForSignIn"
+        android:label="fragment_password_for_sign_in"
+        tools:layout="@layout/fragment_password_for_sign_in" >
+        <action
+            android:id="@+id/action_passwordForSignIn_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messegeFragment"
+        android:name="com.example.gmail.ui.message.MessegeFragment"
+        android:label="fragment_messege"
+        tools:layout="@layout/fragment_messege" />
+    <fragment
+        android:id="@+id/videoCallFragment"
+        android:name="com.example.gmail.ui.videocall.VideoCallFragment"
+        android:label="fragment_video_call"
+        tools:layout="@layout/fragment_video_call" />
+</navigation>

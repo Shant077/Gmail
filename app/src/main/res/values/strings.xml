@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Gmail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="google_text">Use your Google Account</string>
+    <string name="email_or_phone">Email or phone</string>
+    <string name="forgot_password">Forgot email?</string>
+    <string name="text_for_learn_more">Not your computer? Use Private Browsing windows to sign in.<a href="https://support.google.com/accounts/answer/2917834?visit_id=638235721234672061-3584121915p=signin_privatebrowsinghl=enrd=1">Learn more</a> <a /></string>
+    <string name="create_account">Create account</string>
+    <string name="button_next">Next</string>
+    <string name="create_google_account_text">Create Google Account</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="first_name">First name</string>
+    <string name="optional_name">Last name(optional)</string>
+    <string name="basic_information">Basic information</string>
+    <string name="birthday_gender">Enter your birthday and gender</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="gender">Gender</string>
+    <string name="choose_gmail_text">Choose your Gmail address</string>
+    <string name="create_your_own">Create your own</string>
+    <string name="create_gmail_address">Create a Gmail address</string>
+    <string name="character">You can use letters,numbers and periods</string>
+    <string name="strong_password">Create a strong password</string>
+    <string name="strong_password_text">Create a strong password with a mix of letters,numbers and symbols</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="add_number">Add phone number to account?</string>
+    <string name="add_number_text">If you like, you can add your phone number to get account security alerts and reset your password if you forget it</string>
+    <string name="note_for_number">This wont make your number public</string>
+    <string name="description">You can always change your number, control how it is
+        used, or remove it in your Google Account
+        (account.google.com/phone)</string>
+    <string name="phone_number">Phone number</string>
+    <string name="pin_code">Add Phone Pin Code</string>
+    <string name="welcome">Welcome</string>
+    <string name="message">Message</string>
+    <string name="video_call">Video Call</string>
+    <string name="search_email">Search in email</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_bottom_navigation"
+        android:icon="@drawable/baseline_message_24"
+        android:title="@string/message" />
+    <item
+        android:id="@+id/video_call_bottom_navigation"
+        android:icon="@drawable/baseline_video_camera_front_24"
+        android:title="@string/video_call" />
+
+</menu>
